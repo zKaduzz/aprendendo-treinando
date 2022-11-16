@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+  display:none;
+  background-color: rgba(54, 54, 54, 0.623);
+  max-width: 200px;
+  max-height: 1000px;
+  height: 667px;
+transition: 0.5s
+}
+
+#menu li{
+  text-align: center;
+  max-width: 200px;
+  background-color: rgb(243, 229, 149);
+  border: solid rgba(0, 0, 0, 0.281) 1px;
+}
+
+#menu li:hover{
+  color: #ffff;
+  background-color: rgb(67, 71, 51);
+}
+
+.cmenu:hover {
+  cursor: pointer;
+}

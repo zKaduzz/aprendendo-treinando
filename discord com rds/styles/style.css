@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+background-image: url(https://cdn.discordapp.com/attachments/1021953463405527062/1040084559863234570/image.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+:root {
+  --sla-color: linear-gradient(180deg, rgba(9,9,9,1) 0%, rgba(75,75,75,0.865983893557423) 100%);
+}
+
+#card {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: var(--sla-color);
+  max-width: 300px;
+  max-height: 437px;
+  border-radius: 10px;
+}
+
+#baner {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+
+}
+
+.profile {
+  align-items: center;
+
+  height: 240px;
+  width: 240px;
+  margin-top: -130px;
+  display: flex;
+  margin-left: -60px;
+}
+
+.profile #profigle {
+  border: groove 4px #1a1a1ae0;
+  margin: 0 auto;
+  border-radius: 200px;
+  max-width: 80px;
+}
+
+.userta  {
+  color: #fff;
+  margin-left: 55px;
+  margin-top: -60px;
+  font-size: 25px;
+}
+.userta  span{
+  color: rgb(143, 143, 143);
+  font-size: 25px;
+}
+
+#linha {
+  background-color: rgb(134, 133, 133);
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 280px;
+  max-height: 0.8px;
+  border-radius: 10px;
+
+}
+
+.redes{
+  background-color: rgba(0,0,0,.479);
+  margin-left: 70px;
+  max-width: 160px;
+  max-height: 150px;
+  border-radius: 10px;
+  height: -50px;
+}
+.oimeu {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 25px;
+
+}
+
+.redes li {
+  margin-right: 10px;
+}
+
+.slameu {
+  background-color: rgba(0,0,0,.493);
+  margin-top: 115px;
+  margin-left: 15px;
+  font-size: 20px;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 7px;
+  color: #fff;
+  border: solid rgba(0,0,0,.013) 1px;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.slameu:focus {
+  outline: none;
+}
+
+#sm {
+  position: relative;
+  max-height: 800px;
+  top: -52px;
+  margin-left: 230px;
+  scale: 0.5;
+}

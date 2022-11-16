@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="cmenu">
+  <span  onclick="sla()" class="material-icons">menu</span></div>
+  <!--Menu-->
+  <div id="menu">
+    <ul>
+      <li><span class="material-icons">home</span> Home</li>
+      <li><span class="material-icons">videogame_asset</span> Jogo</li>
+      <li><span class="material-icons">play_arrow</span> Videos</li>
+      <li><span class="material-icons">person</span> About Me</li>
+    </ul>
+  </div>
+  <!--Menu Fim-->
+  <script>
+    function sla() {
+      if (menu.style.display == "block"){
+        menu.style.display = "none"
+      }else{
+        menu.style.display = "block"
+      }
+
+    }
+  </script>
+</body>
+
+</html>
